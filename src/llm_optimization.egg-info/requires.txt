@@ -1,0 +1,4 @@
+model_training@ git+https://github.com/LAION-AI/Open-Assistant.git@v0.0.4-alpha2#subdirectory=model/
+oasst_data@ git+https://github.com/LAION-AI/Open-Assistant.git@v0.0.4-alpha2#subdirectory=oasst-data/
+alpaca_farm@ git+https://github.com/tlc4418/alpaca_farm.git
+typer==0.9.0

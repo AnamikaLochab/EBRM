@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: llm_optimization
+Version: 0.0.1
+Summary: Reward Model Ensembles Help Mitigate Overoptimization
+Author-email: Thomas Coste <tcoste99@gmail.com>
+License-File: LICENSE
+Requires-Dist: model_training@ git+https://github.com/LAION-AI/Open-Assistant.git@v0.0.4-alpha2#subdirectory=model/
+Requires-Dist: oasst_data@ git+https://github.com/LAION-AI/Open-Assistant.git@v0.0.4-alpha2#subdirectory=oasst-data/
+Requires-Dist: alpaca_farm@ git+https://github.com/tlc4418/alpaca_farm.git
+Requires-Dist: typer==0.9.0
