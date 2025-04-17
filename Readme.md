@@ -22,10 +22,10 @@ You can train the reward model using the following datasets:
 2. Preferences collected from the 1.4B SFT policy on AlpacaFarm instructions
 3. Custom training data
 Refer to the dataset preparation guide here:
-Dataset Guide (Coste et al.) and can be filterd using filterdata.py 
+Dataset Guide (Coste et al.) and can be filtered using filterdata.py 
 
 For experiments on skywork we feed the training data [Skywork-Reward-Preference-80K-v0.2](https://huggingface.co/datasets/Skywork/Skywork-Reward-Preference-80K-v0.2) in the [Skywork-Reward-Llama-3.1-8B-v0.2](https://huggingface.co/Skywork/Skywork-Reward-Llama-3.1-8B-v0.2) RM and save the final embedding and rewards, and then normailze the rewards before training the EBRM.
 
 EBM Model Training
 Once RM data is prepared, you can train the Energy-Based Model (EBM) using:
-python -m src.reward_modeling.ebm_training.ebm_nce_plus.py
+python -m src.reward_modeling.ebm_training.ebm_nce_plus
