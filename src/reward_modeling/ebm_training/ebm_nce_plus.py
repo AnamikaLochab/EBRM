@@ -357,8 +357,8 @@ def train_ebm(model, dataset, val_dataset,beta=0.1, batch_size=128, epochs=100, 
     return accuracy
    
 
-data_path = 'RM_data2/good_hf_train_rewards_and_embeddings_seed_3.pt' 
-val_path = "RM_data2/hf_evals_rewards_and_embeddings_seed_3.pt"
+data_path = 'RM_data/good_hf_train_rewards_and_embeddings_seed_3.pt' 
+val_path = "RM_data/hf_evals_rewards_and_embeddings_seed_3.pt"
 val_dataset = RewardEmbeddingDataset(val_path)
 dataset = RewardEmbeddingDataset(data_path)
 set_seed(1)
